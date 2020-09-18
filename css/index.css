@@ -17,19 +17,43 @@
   }
 
   #app header {
-    background: url("../assets/img/banner-lion.jpg") no-repeat;
+    background: url("../assets/img/tigre.jpg") no-repeat;
     background-size: cover;
-    height: 732px;
+    filter: grayscale(45%);
+    height: 725px;
   }
 
   .header--logo {
-    padding: 34px 0px 0px 50px ;
+    padding: 47px 0px 0px 50px ;
   }
 
   .header--logo h1 {
     letter-spacing: 1px;
-    font-family: 'Arial';
+    font-family: 'Calibri';
     font-size: 23px;
-    color: #ffffff;
+    color: gray;
     font-weight: bold;
+  }
+
+  .header--home {
+    font-family: 'Calibri';
+    color: white;
+    margin-left: 280px;
+    margin-top: 170px;
+    margin-bottom: 160px;
+    margin-right: 825px;
+  }
+
+  .header--home span {
+    font-size: 20px;
+  }
+
+  .header--home h2 {
+    margin-top: 30px;
+    font-size: 50px;
+  }
+
+  .header--home p {
+    margin-top: 15px;
+    font-size: 16px;
   }
